@@ -62,4 +62,5 @@ if __name__ == "__main__":
     plt.xlabel("Month")
     plt.ylabel("Temperature (°C)")
     plt.title("Daily Temperature Prediction")
+    plt.savefig('prediction_result.png', dpi=300, bbox_inches='tight')
     plt.show()
